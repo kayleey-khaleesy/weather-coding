@@ -18,7 +18,7 @@
       let currentCityElement = document.querySelector("#current-city");
       currentCityElement.innerHTML = city;
     }
-
+   
     function search(event) {
       event.preventDefault();
       let searchInputElement = document.querySelector("#search-input");
